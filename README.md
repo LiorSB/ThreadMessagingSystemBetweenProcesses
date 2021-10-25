@@ -1,0 +1,2 @@
+# ThreadMessagingSystemBetweenProcesses
+Thread Messaging System- simulates a message passing system amongst a number of running threads in the system. Each running thread is called an entity. Each entity has its own private message queue object, which manages the messages directed to this entity by a dispatcher. The dispatcher, on the other hand, has its own message queue object that serves all the thread entities in the system.
